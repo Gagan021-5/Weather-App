@@ -7,7 +7,7 @@ const cont = document.querySelector(".after");
 cont.style.display ="none";
 
 async function get(){
-    let response = await fetch(`http://api.weatherapi.com/v1/current.json?key=9ccfaec91a3b45eab17160641251503&q=${a.value}&aqi=no`);
+    let response = await fetch(`https://api.weatherapi.com/v1/current.json?key=9ccfaec91a3b45eab17160641251503&q=${a.value}&aqi=no`);
     let data = await response.json();
 
 
