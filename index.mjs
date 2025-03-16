@@ -20,7 +20,7 @@ async function get(){
    
 }
 
-a.addEventListener("focus",()=>{
+a.addEventListener("click",()=>{
     a.value= " ";  
 
 })
